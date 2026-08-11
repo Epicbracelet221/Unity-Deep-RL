@@ -92,7 +92,52 @@ The agent is trained using a highly tuned Proximal Policy Optimization setup:
 
 ## 🔮 Future Roadmap
 
+<<<<<<< HEAD
 * **Multi-Target Acquisition:** Transitioning from single-pellet retrieval to dynamic multi-waypoint navigation.
 * **Intrinsic Curiosity Module (ICM):** Implementing curiosity-driven exploration to handle extremely sparse reward topologies.
 * **Dynamic Obstacle Avoidance:** Introducing procedural static and moving obstacles to stress-test the Ray Perception module.
 * **Curriculum Learning:** Incrementally scaling arena size and target distance based on the agent's ELO/success rate.
+=======
+```bash
+# Activate virtual environment
+MLvenv\Scripts\activate
+
+# Start training
+mlagents-learn --run-id=DeepRlRun1
+```
+
+Then press **Play ▶️ in Unity** to begin training.
+
+---
+
+## 📈 Project Status
+
+> ⚠️ This is currently a **base project setup**
+
+The repository contains the foundational implementation.
+It will be continuously updated with improvements and new features.
+
+---
+
+## 🔮 Future Plans
+
+* Improved reward engineering
+* Faster and more stable training
+* Advanced agent behaviors
+* Complex environments
+* TensorBoard integration
+* Model optimization for inference
+
+---
+
+## 🤝 Updates
+
+This repository will evolve as the project develops.
+New features, improvements, and experiments will be pushed regularly.
+
+---
+
+## 📄 License
+
+This project is intended for learning and experimentation.
+>>>>>>> f4ed831d7cf404bc294ee1a19b84353213931449
