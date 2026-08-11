@@ -22,3 +22,7 @@ obj/
 
 MLvenv/
 results/
+
+*.onnx
+*.meta
+*.csv
